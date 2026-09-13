@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&family=Marck+Script&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif; /* Clean, minimal text */
+  background-color: #0a0a0a;
+  color: #f5f5dc;
+}
+
+.font-cursive-light {
+  font-family: 'Marck Script', cursive; /* Halka cursive for Logo/Accents */
+}
+
+.font-elegant {
+  font-family: 'Cormorant Garamond', serif; /* Flowy premium headings */
+}
