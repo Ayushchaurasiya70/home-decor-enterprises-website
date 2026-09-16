@@ -10,7 +10,7 @@ const reviews = [
     location: 'Cantonment, Varanasi',
     rating: 5,
     date: '2 weeks ago',
-    text: 'Kaashian Interiors transformed our 4BHK villa completely. The black and gold detailing in the living area is breathtaking. Extremely professional team and delivered right on time!',
+    text: 'Home Decor Enterprises transformed our 4BHK villa completely. The black and gold detailing in the living area is breathtaking. Extremely professional team and delivered right on time!',
     verified: true,
   },
   {
@@ -30,7 +30,7 @@ const reviews = [
     location: 'Bhelupur, Varanasi',
     rating: 5,
     date: '2 months ago',
-    text: 'From 3D elevations to turnkey construction, Kaashian handled everything smoothly. Their choice of materials and color palettes is super high-end.',
+    text: 'From 3D elevations to turnkey construction, Home Decor Enterprises handled everything smoothly. Their choice of materials and color palettes is super high-end.',
     verified: true,
   },
   {

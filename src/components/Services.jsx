@@ -35,8 +35,8 @@ const services = [
 const Services = () => {
   const [activeService, setActiveService] = useState(0);
 
-  // WhatsApp Redirect URL
-  const whatsappNumber = "919560055485";
+  // Updated WhatsApp Redirect URL for Home Decor Enterprises
+  const whatsappNumber = "919128884990";
 
   return (
     <section id="services" className="py-24 md:py-32 bg-[#0a0a0a] relative overflow-hidden">
@@ -74,7 +74,7 @@ const Services = () => {
             </h2>
           </div>
           <p className="text-[#f5f5dc]/60 text-sm max-w-sm font-light mt-4 md:mt-0">
-            Tailored architecture and interior craftsmanship suited for high-end residential and commercial developments.
+            Tailored architecture and interior craftsmanship suited for high-end residential and commercial developments in Varanasi.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ const Services = () => {
 
                 {/* Direct Action Link */}
                 <a
-                  href={`https://wa.me/${whatsappNumber}?text=Hi%20Kaashian%20Team,%20I%20am%20interested%20in%20${encodeURIComponent(service.title)}`}
+                  href={`https://wa.me/${whatsappNumber}?text=Hi%20Home%20Decor%20Enterprises,%20I%20am%20interested%20in%20${encodeURIComponent(service.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-between w-full pt-4 border-t border-white/10 text-xs uppercase tracking-widest text-[#d4af37] font-medium group-hover:text-[#f5f5dc] transition-colors"

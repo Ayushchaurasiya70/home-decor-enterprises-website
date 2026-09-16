@@ -98,7 +98,8 @@ const Portfolio = () => {
     ? projects 
     : projects.filter(item => item.category === activeFilter);
 
-  const whatsappNumber = "919560055485";
+  // Updated WhatsApp number for Home Decor Enterprises
+  const whatsappNumber = "919128884990";
 
   return (
     <section id="portfolio" className="py-24 md:py-32 bg-[#0a0a0a] relative">
@@ -286,7 +287,7 @@ const Portfolio = () => {
 
                 {/* Direct Action */}
                 <a
-                  href={`https://wa.me/${whatsappNumber}?text=Hi%20Kaashian%20Team,%20I%20am%20interested%20in%20a%20project%20similar%20to%20${encodeURIComponent(selectedProject.title)}`}
+                  href={`https://wa.me/${whatsappNumber}?text=Hi%20Home%20Decor%20Enterprises,%20I%20am%20interested%20in%20a%20project%20similar%20to%20${encodeURIComponent(selectedProject.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-[#d4af37] text-[#0a0a0a] py-3.5 rounded-full text-xs uppercase tracking-widest font-semibold flex items-center justify-center gap-2 hover:bg-[#f5f5dc] transition-colors shadow-lg shadow-[#d4af37]/20"

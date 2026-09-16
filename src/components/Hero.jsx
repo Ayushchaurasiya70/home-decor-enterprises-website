@@ -64,7 +64,7 @@ const Hero = () => {
 
           {/* Description */}
           <motion.p variants={itemVariants} className="text-[#f5f5dc]/80 text-sm md:text-base max-w-2xl mx-auto font-light leading-relaxed mb-10">
-            Transforming ordinary spaces into extraordinary masterpieces. Based in Varanasi, we blend modern minimalism with classic luxury to build your dream sanctuary.
+            Transforming ordinary spaces into extraordinary masterpieces. Based in Varanasi, Home Decor Enterprises blends modern minimalism with classic luxury to build your dream sanctuary.
           </motion.p>
 
           {/* Action Buttons */}

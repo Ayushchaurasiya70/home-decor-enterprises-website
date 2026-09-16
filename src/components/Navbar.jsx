@@ -6,9 +6,9 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Business WhatsApp Number
-  const whatsappNumber = "919560055485";
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hello%20Kaashian%20Interiors,%20I%20want%20to%20discuss%20a%20project.`;
+  // Updated Business WhatsApp Number for Home Decor Enterprises
+  const whatsappNumber = "919128884990";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hello%20Home%20Decor%20Enterprises,%20I%20want%20to%20discuss%20an%20interior%20project.`;
 
   const navLinks = [
     { title: 'Home', path: '#' },
@@ -46,11 +46,11 @@ const Navbar = () => {
           
           {/* Logo Section with Halka Cursive Font */}
           <a href="#" className="flex flex-col">
-            <span className="font-cursive-light text-3xl md:text-4xl text-[#d4af37] tracking-wide leading-none">
-              Kaashian
+            <span className="font-cursive-light text-2xl md:text-3xl text-[#d4af37] tracking-wide leading-none">
+              Home Decor
             </span>
             <span className="font-elegant text-[9px] md:text-[10px] text-[#f5f5dc] tracking-[0.25em] uppercase opacity-80 mt-1">
-              Interiors & Construction
+              Enterprises & Interiors
             </span>
           </a>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
             className="fixed inset-0 z-40 bg-[#0a0a0a] flex flex-col justify-center items-center h-screen w-screen"
           >
             <div className="flex flex-col items-center space-y-8">
-              {navLinks.map((link, index) => (
+              {navLinks.linkUrls || navLinks.map((link, index) => (
                 <motion.a
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

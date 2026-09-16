@@ -79,27 +79,27 @@ const About = () => {
             </motion.h2>
 
             <motion.p variants={fadeInUp} className="text-[#f5f5dc]/70 text-sm md:text-base font-light leading-relaxed mb-8">
-              At <strong className="text-[#f5f5dc] font-medium">Kaashian Interiors & Construction</strong>, we don't just build spaces; we craft experiences. From commercial marvels to cozy residential sanctuaries, our approach combines timeless aesthetics with modern functionality. 
+              At <strong className="text-[#f5f5dc] font-medium">Home Decor Enterprises</strong>, we don't just design spaces; we craft life-enriching experiences. From commercial masterpieces to cozy residential sanctuaries, our approach combines timeless aesthetics with high-end functionality. 
               <br /><br />
-              Rooted in the spiritual heart of India, Varanasi, we bring a unique blend of heritage and contemporary design to every project, ensuring your space is a true reflection of your personality and lifestyle.
+              Rooted in the spiritual hub of Varanasi (near Sigra), we blend traditional charm with ultra-modern contemporary design to ensure your property truly reflects your lifestyle.
             </motion.p>
 
             {/* Stats/Highlight Boxes */}
             <motion.div variants={fadeInUp} className="grid grid-cols-2 gap-6 pt-6 border-t border-[#f5f5dc]/10">
               <div>
-                <h4 className="font-elegant text-4xl text-[#d4af37] mb-1">100+</h4>
+                <h4 className="font-elegant text-4xl text-[#d4af37] mb-1">150+</h4>
                 <p className="text-[#f5f5dc]/60 text-xs uppercase tracking-widest">Projects Delivered</p>
               </div>
               <div>
-                <h4 className="font-elegant text-4xl text-[#d4af37] mb-1">4.6★</h4>
+                <h4 className="font-elegant text-4xl text-[#d4af37] mb-1">4.9★</h4>
                 <p className="text-[#f5f5dc]/60 text-xs uppercase tracking-widest">Client Rating</p>
               </div>
             </motion.div>
 
             {/* Signature / Founder Note */}
             <motion.div variants={fadeInUp} className="mt-10">
-              <p className="font-cursive-light text-2xl text-[#f5f5dc]/80">Kaashian Team</p>
-              <p className="text-[#d4af37] text-[10px] uppercase tracking-[0.2em] mt-1">Best Architects & Designers</p>
+              <p className="font-cursive-light text-2xl text-[#f5f5dc]/80">Home Decor Team</p>
+              <p className="text-[#d4af37] text-[10px] uppercase tracking-[0.2em] mt-1">Expert Interior Designers</p>
             </motion.div>
           </motion.div>
 
